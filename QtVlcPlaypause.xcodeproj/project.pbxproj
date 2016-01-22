@@ -11,6 +11,8 @@
 		FB54BB371C52E09E006D17F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54BB361C52E09E006D17F2 /* ViewController.swift */; };
 		FB54BB391C52E09E006D17F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB54BB381C52E09E006D17F2 /* Assets.xcassets */; };
 		FB54BB3C1C52E09E006D17F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB54BB3A1C52E09E006D17F2 /* Main.storyboard */; };
+		FB54BB441C52E0D7006D17F2 /* ressources in Resources */ = {isa = PBXBuildFile; fileRef = FB54BB431C52E0D7006D17F2 /* ressources */; settings = {ASSET_TAGS = (); }; };
+		FB54BB461C52EB3F006D17F2 /* applescript in Resources */ = {isa = PBXBuildFile; fileRef = FB54BB451C52EB3F006D17F2 /* applescript */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FB54BB381C52E09E006D17F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB54BB3B1C52E09E006D17F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB54BB3D1C52E09E006D17F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB54BB431C52E0D7006D17F2 /* ressources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ressources; sourceTree = "<group>"; };
+		FB54BB451C52EB3F006D17F2 /* applescript */ = {isa = PBXFileReference; lastKnownFileType = folder; path = applescript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				FB54BB381C52E09E006D17F2 /* Assets.xcassets */,
 				FB54BB3A1C52E09E006D17F2 /* Main.storyboard */,
 				FB54BB3D1C52E09E006D17F2 /* Info.plist */,
+				FB54BB451C52EB3F006D17F2 /* applescript */,
+				FB54BB431C52E0D7006D17F2 /* ressources */,
 			);
 			path = QtVlcPlaypause;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB54BB391C52E09E006D17F2 /* Assets.xcassets in Resources */,
+				FB54BB441C52E0D7006D17F2 /* ressources in Resources */,
+				FB54BB461C52EB3F006D17F2 /* applescript in Resources */,
 				FB54BB3C1C52E09E006D17F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
