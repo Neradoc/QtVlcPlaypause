@@ -45,6 +45,9 @@ class ViewController: NSViewController {
 		}
 	}
 
+	/*
+		Les scripts sont stockés dans le sous dossier "applescript" (logiquement)
+	*/
 	func callAppleScriptFile(script_name:String) {
 		let bundle = NSBundle.mainBundle()
 		guard let script_path = bundle.pathForResource(script_name, ofType: "", inDirectory: "applescript") else {
