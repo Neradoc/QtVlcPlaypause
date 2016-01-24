@@ -652,7 +652,7 @@
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
                     <window key="window" title="QT VLC Controller" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="409" height="190"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -669,7 +669,7 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="QtVlcPlaypause" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
+                    <view key="view" autoresizesSubviews="NO" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="68"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
@@ -679,6 +679,8 @@
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="bouton_back_plus" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="IbD-tH-dmV">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent"></string>
+                                    <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="pressButton:" target="XfG-lQ-9wD" id="GHs-eb-Tm5"/>
@@ -690,6 +692,8 @@
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="bouton_back_moins" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ufd-aT-wv7">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent"></string>
+                                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="pressButton:" target="XfG-lQ-9wD" id="uZQ-uy-ocx"/>
@@ -701,6 +705,9 @@
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="bouton_playpause" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="yk9-eM-HSY">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+IA
+</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="pressButton:" target="XfG-lQ-9wD" id="ugK-Ci-yHr"/>
@@ -712,6 +719,8 @@
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="bouton_forward_moins" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="vXN-Ve-eDa">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent"></string>
+                                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="pressButton:" target="XfG-lQ-9wD" id="Udw-so-bKw"/>
@@ -723,6 +732,8 @@
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="bouton_forward_plus" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="0r2-gY-9ir">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent"></string>
+                                    <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="pressButton:" target="XfG-lQ-9wD" id="tJd-rI-Xea"/>
