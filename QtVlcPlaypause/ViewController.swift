@@ -55,7 +55,7 @@ class ViewController: NSViewController {
 		}
 		let url = NSURL.fileURLWithPath(script_path, isDirectory:false)
 		var error: NSDictionary?
-		let xerror = AutoreleasingUnsafeMutablePointer<NSDictionary?>()
+		let xerror:AutoreleasingUnsafeMutablePointer<NSDictionary?> = nil
 		if let scriptObject = NSAppleScript(contentsOfURL: url, error: xerror) {
 			if let output: NSAppleEventDescriptor = scriptObject.executeAndReturnError(&error) {
 					print(output.stringValue)
